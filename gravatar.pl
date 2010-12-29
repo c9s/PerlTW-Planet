@@ -10,5 +10,5 @@ use Digest::MD5 qw(md5_hex);
 
 map { 
     warn $_->[0];
-    getstore("http://www.gravatar.com/avatar/" . $_->[1] , 'output/' . $_->[0] . ".png")
+    getstore("http://www.gravatar.com/avatar/" . $_->[1] , 'output/images/' . $_->[0] . ".png")
     } map { [ $_ , md5_hex($users{$_}) ] } keys %users;
