@@ -6,6 +6,8 @@ use Digest::MD5 qw(md5_hex);
     clkao clkao@clkao.org
     c9s cornelius.howl@gmail.com
     gugod gugod@gugod.org
+    gslin gslin@gslin.org
+    clsung clsung@gmail.com
 );
 
 map { 
